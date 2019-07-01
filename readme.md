@@ -2,10 +2,20 @@
 
 Esse trabalho performa a estatística do primeiro dígito de Benford, com a exibição em Excel do modelo teórico. 
 
-### Prerequisites
+### Prerequisitos
 
 Sistema Operacional Linux
 MongoDB 3.0 ou superior, Community Edition
+
+
+
+## Benford teórico
+
+
+Primeiro dígito
+
+![alt text](https://github.com/rodrigoms2004/BenfordBolsaFamilia/blob/master/graficos/benford_primeiro_digito.png)
+
 
 
 ## Download dos dados
@@ -411,12 +421,12 @@ db.janeiro.find({}).forEach(function(e) {
 ```
 
 
-## Authors
+## Autor
 
 * **Rodrigo Moraes Silveira**
 *Git hub* - (https://github.com/rodrigoms2004)
 *E-mail*  - rodrigoms2004@gmail.com
 
-## License
+## Licença
 
-Copyright RMSMath
+Copyfree RMSMath

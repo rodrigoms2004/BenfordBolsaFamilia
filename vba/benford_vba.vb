@@ -1,7 +1,7 @@
 Option Explicit
 
-' Benford Teórico por Rodrigo Moraes Silveira
-' 01.05.2018 - rodrigo.silveira@rmsmath.com.br
+' Benford Teï¿½rico por Rodrigo Moraes Silveira
+' 01.05.2018 - rodrigo.silveira@rmsmath.com.br / rodrigoms2004@gmail.com
 ' uso livre
 
 Sub Benford_Teorico()
@@ -11,27 +11,27 @@ Sub Benford_Teorico()
     Dim i As Long
     i = 0
     
-    ' popula coluna Número de 0 até 0
+    ' popula coluna Nï¿½mero de 0 atï¿½ 0
     Call populaDigitos
     
-    ' Gera o Benford do Primero Dígito
+    ' Gera o Benford do Primero Dï¿½gito
     ' de 0 a 9
     Call benford_PrimeiroDigito
     
-    ' Gera o Benford do Segundo Dígito
+    ' Gera o Benford do Segundo Dï¿½gito
     ' de 10 a 99
     Call benford_SegundoDigito
     
     Dim segundoDigito, p_somas, s_somas As Long
     Dim soma As Double
     
-    ' Gera o Benford do Terceiro Dígito
+    ' Gera o Benford do Terceiro Dï¿½gito
     ' de 100 a 999
     Call benford_TerceiroDigito
     
     Dim terceiroDigito, t_somas As Long
     
-    ' Gera o Benford do Quarto Dígito
+    ' Gera o Benford do Quarto Dï¿½gito
     ' de 1000 a 9999
     Call benford_QuartoDigito
 
@@ -43,15 +43,15 @@ Sub criaLayout()
     Sheets(Benford).Select
     Range(A1).Select
     
-    ActiveCell = Número
+    ActiveCell = Nï¿½mero
     ActiveCell.Offset(0, 1).Select
-    ActiveCell = Primeiro Dígito
+    ActiveCell = Primeiro Dï¿½gito
     ActiveCell.Offset(0, 1).Select
-    ActiveCell = Segundo Dígito
+    ActiveCell = Segundo Dï¿½gito
     ActiveCell.Offset(0, 1).Select
-    ActiveCell = Terceiro Dígito
+    ActiveCell = Terceiro Dï¿½gito
     ActiveCell.Offset(0, 1).Select
-    ActiveCell = Quarto Dígito
+    ActiveCell = Quarto Dï¿½gito
     Range(A1).Select
     
     Columns(AA).EntireColumn.AutoFit
@@ -61,7 +61,7 @@ Sub criaLayout()
     Columns(EE).EntireColumn.AutoFit
     
         ' Coloca em formato de porcentagem
-    ' com dois dígitos após a vírgula
+    ' com dois dï¿½gitos apï¿½s a vï¿½rgula
     Range(B2E11).Select
     Selection.Style = Percent
     Selection.NumberFormat = 0.00%
