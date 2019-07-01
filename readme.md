@@ -12,10 +12,19 @@ MongoDB 3.0 ou superior, Community Edition
 ## Benford teórico
 
 
-Primeiro dígito
+### Primeiro dígito
 
 ![alt text](https://github.com/rodrigoms2004/BenfordBolsaFamilia/blob/master/graficos/benford_primeiro_digito.png)
 
+
+### Segundo dígito
+
+![alt text](https://github.com/rodrigoms2004/BenfordBolsaFamilia/blob/master/graficos/benford_segundo_digito.png)
+
+
+### Terceiro dígito
+
+![alt text](https://github.com/rodrigoms2004/BenfordBolsaFamilia/blob/master/graficos/benford_terceiro_digito.png)
 
 
 ## Download dos dados
