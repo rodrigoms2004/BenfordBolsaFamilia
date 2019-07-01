@@ -435,6 +435,11 @@ db.janeiro.find({}).forEach(function(e) {
 });
 ```
 
+## Benford Teórico VBA
+
+```
+![alt text](https://github.com/rodrigoms2004/BenfordBolsaFamilia/blob/master/vba/benford_vba.vb)
+```
 
 ## Autor
 
