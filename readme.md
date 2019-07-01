@@ -199,6 +199,8 @@ Digito 8 :  1857489
 Digito 9 :  54987
 ```
 
+![alt text](https://github.com/rodrigoms2004/BenfordBolsaFamilia/blob/master/graficos/benford_primeiro_digito_bolsafamiliaJan2017.png)
+
 ### Benford Segundo dígito
 
 Faz a estatística do segundo dígito de Benford
@@ -235,6 +237,8 @@ Digito 8 :  868974
 Digito 9 :  1113764
 ```
 
+![alt text](https://github.com/rodrigoms2004/BenfordBolsaFamilia/blob/master/graficos/benford_segundo_digito_bolsafamiliaJan2017.png)
+
 ### Benford Terceiro dígito
 
 Faz a estatística do terceiro dígito de Benford
@@ -270,6 +274,8 @@ Digito 7 :  1137778
 Digito 8 :  470071
 Digito 9 :  459532
 ```
+
+![alt text](https://github.com/rodrigoms2004/BenfordBolsaFamilia/blob/master/graficos/benford_terceiro_digito_bolsafamiliaJan2017.png)
 
 ### Pagamentos 
 
